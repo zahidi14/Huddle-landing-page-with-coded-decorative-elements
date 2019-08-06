@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="bootstrap/css/out.css">
-
+  <link rel="stylesheet" href="css/out.css">
   <title>Frontend Mentor | Huddle landing page with coded decorative elements</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -20,6 +18,31 @@
       background-image: url(images/fdf.svg);
       background-size: cover;
     }
+    .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  
+
+  .section2 .section2content {
+    flex-basis: 50%;
+    padding-left: 100px;
+  }
+
+  .section2img {
+    display: flex;
+    flex-basis: 50%;
+    width: inherit;
+    height: auto;
+    background-image: url("images/illustration-your-users.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+    
   </style>
 
 </head>
@@ -46,36 +69,49 @@
       
 
 
-      <section>
-        <img src="">
+      <section class="section2">
+        <div class="section2img">
+         
+        </div>
+        <div class="section2content">
+          <h3 class="heading">Flowing Conversations</h3>
+          <p class="paragraph">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+              just-in-time loading for a more natural flow.</p>
+          <h3 class="heading">Grow Together</h3>
+          <p class="paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of 
+            the insightful conversations you miss out on with a feedback form. </p>    
+            <h3 class="heading">Your Users</h3>
+            <p class="paragraph">  It takes no time at all to integrate Huddle with your app's authentication solution. This means, once 
+              signed in to your app, your users can start chatting immediately.</p>
+        </div>
       </section>
-  test fr branc
+
+      <section class="section3">
+        <div class="section3content">
+          <h2 class="heading">Try It Free</h2>
+          <p class="paragraph">
+            Fully featured 30-day free trial - no credit card required
+          </p>
+          <button class="get-started">Get Started For Free</button>
+        </div>
+      </section>
   
-  Build The Community Your Fans Will Love
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+  
 
-  Get Started For Free
+  
 
-  Flowing Conversations
+  
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
+  
 
-  Grow Together
+  
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. Think of 
-  the insightful conversations you miss out on with a feedback form. 
 
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, once 
-  signed in to your app, your users can start chatting immediately.
 
   Try It Free
 
-  Fully featured 30-day free trial - no credit card required
+  
 
   Get Started For Free
 
